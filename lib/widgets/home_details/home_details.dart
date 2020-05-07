@@ -22,32 +22,31 @@ class HomeDetails extends StatelessWidget {
                 ? 16
                 : 21;
 
-      return Container(
-        width: 600,
+        return Container(
+          width: 600,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                'BLOOMIN\' IDEAS',
+                'BLOOMIN\' IDEAS.',
                 style: TextStyle(
-                  fontWeight: FontWeight.w800, 
-                  fontSize: 80, 
-                  height: 0.9,
-                ),
+                    fontWeight: FontWeight.w800,
+                    height: 0.9,
+                    fontSize: titleSize),
                 textAlign: textAlignment,
               ),
               SizedBox(
                 height: 30,
               ),
               Text(
-                '1º de maio de 2020: aceitei o desafio de criar apps.',
+                'Criação de apps',
                 style: TextStyle(
-                  fontSize: 21, 
+                  fontSize: descriptionSize,
                   height: 1.7,
                 ),
                 textAlign: textAlignment,
-              ),
+              )
             ],
           ),
         );

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:enriquefiore/views/home/home_content.dart';
 import 'package:enriquefiore/views/home/home_content_mobile.dart';
-import 'package:enriquefiore/widgets/navigation_drawer/navigation_drawer.dart';
+import 'package:enriquefiore/views/home/home_content_desktop.dart';
 import 'package:enriquefiore/widgets/call_to_action/call_to_action.dart';
-import 'package:enriquefiore/widgets/centered_view/centered_view.dart';
 import 'package:enriquefiore/widgets/navigation_bar/navigation_bar.dart';
+import 'package:enriquefiore/widgets/navigation_drawer/navigation_drawer.dart';
+import 'package:enriquefiore/widgets/centered_view/centered_view.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class HomeView extends StatelessWidget {
@@ -30,7 +30,7 @@ class HomeView extends StatelessWidget {
               ),
               Text(
                 '© 2020 Fiore Labs. - Desenvolvido em Dart/Flutter',
-                style: TextStyle(fontSize: 12, height: 1.7),
+                style: TextStyle(fontSize: 10, height: 1.5),
               ),
             ],
           ),

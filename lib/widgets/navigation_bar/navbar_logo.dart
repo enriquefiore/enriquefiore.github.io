@@ -15,7 +15,7 @@ class NavBarLogo extends StatelessWidget {
           fontSize: 60,
           color: Colors.purple
         ),
-      )
+      ),
     );
   }
 }
